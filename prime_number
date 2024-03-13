@@ -1,1 +1,26 @@
-checking prime number using methods
+package anything;
+
+public class anything {
+	static void prime(int no) {
+		int count =0;
+		for(int i=1;i<=no;i++) {
+			if(no%i==0) {
+				count++;
+			}
+		}
+		if(count>2) {
+			System.out.println("not prime");
+		}
+		else {
+			System.out.println("prime");
+		}
+	}
+	
+		
+	
+
+	public static void main(String[] args) {
+		prime(232357);
+
+}
+}
