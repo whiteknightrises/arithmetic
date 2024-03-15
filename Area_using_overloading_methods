@@ -1,0 +1,17 @@
+package java_strings;
+import java.util.*;
+
+public class area {
+	static double area(int a, int b) {
+		return a*b;
+	}
+	static double area(int r) {
+		return Math.PI*r*r;
+	}	
+	
+
+	public static void main(String[] args) {
+	 System.out.println(area(5,2));
+	 System.out.println(area(5));
+	}
+}
