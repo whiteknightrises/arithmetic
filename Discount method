@@ -1,0 +1,22 @@
+package java_strings;
+import java.util.*;
+
+public class Discount{
+static double discount(float price) {
+	return price-(price*0.15);
+	
+}
+
+
+	public static void main(String[] args) {
+System.out.println(discount(100));
+		}
+
+		}
+			
+
+
+ 
+	 
+	
+
