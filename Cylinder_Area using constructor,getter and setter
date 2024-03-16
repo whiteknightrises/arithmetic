@@ -1,0 +1,36 @@
+package java_strings;
+import java.util.*;
+
+public class Cylinder{
+	private int radius,height;
+public int getRadius() {
+		return radius;
+	}
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+	public int getHeight() {
+		return height;
+	}
+	public void setHeight(int height) {
+		this.height = height;
+	}
+public	Cylinder() {
+	radius =1;
+	height=1;
+	}
+public	Cylinder(int r,int h) {
+	radius =r;
+	height=h;
+	}
+public double Area() {
+	return 2*Math.PI*getHeight()*getRadius();
+}
+
+public static void main(String[] args) {
+		Cylinder c = new Cylinder();
+		System.out.println(c.Area());
+			 
+			}
+
+		}
