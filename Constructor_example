@@ -1,0 +1,76 @@
+package java_strings;
+import java.util.*;
+
+public class Product{
+	private String itemno;
+	private String name;
+	private double price;
+	private int quantity;
+public double getPrice() {
+		return price;
+	}
+
+public void setPrice(double price) {
+		this.price = price;
+	}
+public int getQuantity() {
+		return quantity;
+	}
+public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+public String getItemno() {
+		return itemno;
+	}
+public String getName() {
+		return name;
+	}
+public Product(String itemno, String name, double price, int quantity) {
+	this.itemno = itemno;
+	this.name = name;
+	this.price = price;
+	this.quantity = quantity;
+}
+
+public class Customer{
+	private String CustId,name,adress,phn_no;
+
+	public String getAdress() {
+		return adress;
+	}
+
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
+
+	public String getPhn_no() {
+		return phn_no;
+	}
+
+	public void setPhn_no(String phn_no) {
+		this.phn_no = phn_no;
+	}
+
+	public String getCustId() {
+		return CustId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public Customer(String custId, String name, String adress, String phn_no) {
+		
+		CustId = custId;
+		this.name = name;
+		this.adress = adress;
+		this.phn_no = phn_no;
+	}
+	
+	
+}
+
+public static void main(String[] args) {
+		}
+
+		}
