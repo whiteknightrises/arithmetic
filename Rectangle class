@@ -1,0 +1,26 @@
+package java_strings;
+import java.util.*;
+
+public class Rectangle{
+	int length,breadth;
+	static int area(int length,int breadth) {
+		return length*breadth;
+
+	
+}
+	static int perimeter(int length,int breadth) {
+		return 2*(length+breadth);
+
+	
+}
+
+
+	public static void main(String[] args) {
+
+		System.out.println(area(5,2));
+		System.out.println(perimeter(3,2));
+			
+			 
+			}
+
+		}
